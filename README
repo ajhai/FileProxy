@@ -1,0 +1,33 @@
+*What is FileProxy?*
+
+FileProxy is a proxy application that caches the files that are shared on premium file sharing services and lets the users download them. It uses the premium account credentials for various file sharing services provided during the initial setup to download/resume multiple files in parallel.
+
+
+*Why is it open-sourced?*
+
+I worked on this project more than a year back and had a deal to share profits with the person who'd invested in the servers and the premium accounts with various file hosting services. But the project was scrapped because of some problems and the code that I wrote is just lying useless in my computer. After reading http://news.ycombinator.com/item?id=2891907 post on HN, I felt that it might be a good idea to put the code on github so that other developers can use pieces of it if at all they can.
+
+
+*Does this application work?*
+
+Yes. It works with some minor tweaks.
+
+
+*Can this be deployed in production environment?*
+
+Though this application works, I don't think it is a good idea to deploy this code into production as it is. Remember this was still a work under development when scrapped. This code is unoptimized, uncommented and not tested much. My intention of sharing this code is to let other developers use pieces of the project. If you are willing to spend some time with the code, then I think it can go into production easily.
+
+
+*Do I need to have premium accounts with file sharing services in order to deploy this application?*
+
+Yes. You will need to generate a cookie file using your premium account credentials and then feed that cookie information to the application for the download to work.
+
+
+*What are the technologies used?*
+
+HTML, CSS, JavaScript, PHP, MySQL, Python
+
+
+*I need help setting up this application*
+
+Please feel free to drop me a mail if you need help setting this application.
